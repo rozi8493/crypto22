@@ -1,8 +1,9 @@
-document.getElementById('time').innerHTML = new Date().getDate;
+document.getElementById('time').innerHTML = new Date().toLocaleString();
 
 function pink() {
-  document.body.style.backgroundcolor = 'pink';
+  document.body.style.backgroundColor = 'pink';
 }
+
 function lightblue() {
   document.body.style.backgroundColor = 'lightblue';
 }
